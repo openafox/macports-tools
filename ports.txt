@@ -28,6 +28,7 @@ pip install -U pip setuptools --user
 pip install wheel --user  # for pip
 pip install tendo --user  # some nice tools
 pip install pypdfocr --user  # Optical character recognition for pdfs
+pip install future --user  # Python 2-3 compatibility
 gtk2  # for gwyddion
 gtkglext  # for gwyddion
 fftw-3  # for gwyddion
