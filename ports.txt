@@ -1,0 +1,35 @@
+watch  # watch -n number_of_seconds “command”
+tree  # for macports?
+mtr  #utility needed for other packages
+xz libxml2 +universal #utility needed for other packages
+imagemagick  #utility needed for other packages
+git  # track changes - see try.github.com
+python27  # install python
+sudo port select --set python python27
+py27-pygtk  # graphical interface support
+py27-pyqt4  # graphical interface support
+py27-matplotlib +gtk2  # plotting tools with gtk support
+py27-numpy  # math
+py27-scipy  # math
+py27-lxml  # xml library
+py27-pep8  # Py Com stds checker
+py27-pyflakes  # Py Com stds checker
+py27-ipython +notebook   # something I probably should use
+sudo port select --set ipython py27-ipython
+vim +python27 +gtk2 +huge  # text editor with all the variants
+py27-beautifulsoup  # html parser
+youtube-dl  # youtube video downloader
+autoconf automake libtool jpeg tiff libpng leptonica  # stuff needed for ocr
+tesseract-eng  # ocr engin
+sudo rm /usr/local/bin/pip  # remove local pip
+py27-pip  # package installer
+sudo port select --set pip pip27
+pip install -U pip setuptools --user
+pip install wheel --user  # for pip
+pip install tendo --user  # some nice tools
+pip install pypdfocr --user  # Optical character recognition for pdfs
+gtk2  # for gwyddion
+gtkglext  # for gwyddion
+fftw-3  # for gwyddion
+gwyddion  # scanning probe microscopy analys tool
+gnupg21  # encryption
