@@ -16,7 +16,7 @@ py27-pep8  # Py Com stds checker
 py27-pyflakes  # Py Com stds checker
 py27-ipython +notebook   # something I probably should use
 sudo port select --set ipython py27-ipython
-vim +python27 +gtk2 +huge  # text editor with all the variants
+vim +python27 +huge  # text editor with needed variants  -X11 as it scews clipboad up
 py27-beautifulsoup  # html parser
 youtube-dl  # youtube video downloader
 autoconf automake libtool jpeg tiff libpng leptonica  # stuff needed for ocr
